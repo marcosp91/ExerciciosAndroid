@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Galeria de Imagens</string>
+    <string name="gridView"></string>
+    <string name="showImage"></string>
+    <string name="buttonExcluir">Excluir</string>
+    <string name="buttonAdd">Adicionar</string>
+</resources>
