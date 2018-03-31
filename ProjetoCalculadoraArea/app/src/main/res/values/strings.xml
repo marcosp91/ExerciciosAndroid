@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Calculator</string>
+    <string name="result">The Area is: </string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="radius">Radius</string>
+    <string name="imageArea"></string>
+    <string name="spinner">Select a Shape!</string>
+</resources>

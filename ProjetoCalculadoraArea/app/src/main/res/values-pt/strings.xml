@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Calculadora</string>
+    <string name="result">"A Área é: "</string>
+    <string name="width">Largura</string>
+    <string name="height">Altura</string>
+    <string name="radius">Raio</string>
+    <string name="spinner">Seleciona uma Forma Geométrica!</string>
+</resources>
