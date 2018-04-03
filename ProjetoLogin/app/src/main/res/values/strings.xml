@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjetoLogin</string>
+    <string name="input_fname">Nome</string>
+    <string name="input_lname">Sobrenome</string>
+    <string name="input_email">Email</string>
+    <string name="input_email_res">Residencial</string>
+    <string name="input_phone">Telefone</string>
+    <string name="input_cellphone">Celular</string>
+    <string name="input_gmail">Salvar em:</string>
+    <string name="text_gmail">marcos91@gmail.com</string>
+</resources>

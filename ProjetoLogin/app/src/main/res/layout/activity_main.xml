@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sisnet.univali.br.projetologin.MainActivity">
+    
+    <LinearLayout
+        android:id="@+id/bck_profile"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/user_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="60dp"
+            android:src="@drawable/user_img"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/photo_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/camera_img"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/label_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <ImageView
+            android:id="@+id/icon_gmail"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/gmail2_img"
+            android:padding="6dp"/>
+
+        <TextView
+            android:id="@+id/input_gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/icon_gmail"
+            android:text="@string/input_gmail"/>
+
+        <TextView
+            android:id="@+id/text_gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_gmail"
+            android:layout_toRightOf="@id/icon_gmail"
+            android:layout_below="@id/input_gmail"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/label_user"
+        android:layout_width="match_parent"
+        android:padding="6dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"></Spinner>
+
+        <ImageView
+            android:id="@+id/icon_user"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/user2_img"
+            android:padding="6dp"
+            android:layout_marginEnd="5dp"/>
+
+        <EditText
+            android:id="@+id/input_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon_user"
+            android:textSize="18sp"
+            android:hint="@string/input_fname"/>
+
+        <EditText
+            android:id="@+id/input_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_lname"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/icon_user"
+            android:layout_below="@id/input_fname" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/label_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        tools:ignore="Orientation">
+
+        <ImageView
+            android:id="@+id/icon_phone"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/phone_img"
+            android:padding="6dp"
+            android:layout_marginEnd="5dp" />
+
+        <EditText
+            android:id="@+id/input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon_phone"
+            android:textSize="18sp"
+            android:hint="@string/input_phone"/>
+
+        <EditText
+            android:id="@+id/input_cellphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_phone"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/icon_phone"
+            android:hint="@string/input_cellphone"/>
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/input_cellphone"
+            android:layout_below="@id/input_phone"></Spinner>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/label_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+
+        <ImageView
+            android:id="@+id/icon_email"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:src="@drawable/email2_img"
+            android:padding="6dp"
+            android:layout_marginEnd="5dp" />
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon_email"
+            android:textSize="18sp"
+            android:hint="@string/input_email"/>
+
+        <EditText
+            android:id="@+id/input_email_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input_email"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/icon_email"
+            android:hint="@string/input_email_res"/>
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/input_email_res"
+            android:layout_below="@id/input_email"></Spinner>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

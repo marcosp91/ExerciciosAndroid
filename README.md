@@ -4,5 +4,9 @@
 
 ###### Lista de Exercícios
 
+# Exercício Formulário - ProjetoLogin
 
+# Exercício Livre - ProjetoGaleria
+
+# Exercício Calculadora de Área - ProjetoCalculadora
 
