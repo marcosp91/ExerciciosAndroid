@@ -1,12 +1,22 @@
-# SISNET 2018 
+# Exercícios Aula Android
 
-## Repositório dedicado a postagem de exercícios para disciplina Programação Mobile.
+## Lista de Exercícios M1
 
-###### Lista de Exercícios
+```
+Exercício Formulário - ProjetoLogin
+```
 
-# Exercício Formulário - ProjetoLogin
+```
+Exercício Livre - ProjetoGaleria
+```
 
-# Exercício Livre - ProjetoGaleria
+```
+Exercício Calculadora de Área - ProjetoCalculadora
+```
 
-# Exercício Calculadora de Área - ProjetoCalculadora
+## Lista de Exercícios M2
+
+```
+Empty
+```
 
